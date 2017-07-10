@@ -1,7 +1,7 @@
-from flask_wtf import Form
+from flask_wtf import FlaskForm
 from wtforms.fields.html5 import DateField
 from wtforms.validators import DataRequired
 
 
-class SchedulerForm(Form):
+class SchedulerForm(FlaskForm):
     date = DateField('DatePicker', format='%Y-%m-%d', validators=[DataRequired()])
