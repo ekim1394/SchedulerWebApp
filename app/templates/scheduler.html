@@ -1,0 +1,17 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>When would you like to schedule?</h1>
+  <form action="" method="post" name="scheduler">
+      {{ form.hidden_tag() }}
+      <p>
+          Please enter a date:<br>
+          {{ form.date }}<br>
+          {% for error in form.date.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}<br>
+      </p>
+      <p><input type="submit" value="OK"></p>
+  </form>
+{% endblock %}
