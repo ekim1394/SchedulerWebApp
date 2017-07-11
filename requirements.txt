@@ -1,5 +1,5 @@
 wtforms
 flask
-gunicorn
+waitress
 flask_bootstrap
 flask_wtf
