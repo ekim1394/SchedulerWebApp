@@ -1,2 +1,5 @@
 wtforms
 flask
+gunicorn
+flask_bootstrap
+flask_wtf
