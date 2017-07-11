@@ -12,7 +12,7 @@ Partly meant as a learning experience as well as giving something cool/useful to
 ## How to run webapp locally
 1. python run.py
 2. Open browser
-3. [http://localhost:5000]
+3. <http://localhost:5000>
 
 ## Deployment Steps for heroku
 1. git commit -am "Add descriptive commit message"
