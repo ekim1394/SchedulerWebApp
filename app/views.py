@@ -7,6 +7,7 @@ from .forms import SchedulerForm
 @app.route('/index')
 def index():
     user = {'nickname': 'Eugene'}  # fake user
+
     return render_template("index.html",
                            user=user,
                            title="Home")
