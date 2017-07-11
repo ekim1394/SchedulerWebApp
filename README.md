@@ -22,8 +22,8 @@ Partly meant as a learning experience as well as giving something cool/useful to
 5. heroku open
 
 ## Things to do/add
-Better design (CSS and wireframes perhaps)
-Sidebar
-More space on the edges
-More assets
-Google Maps API
+- Better design (CSS and wireframes perhaps)
+- Sidebar
+- More space on the edges
+- More assets
+- Google Maps API
