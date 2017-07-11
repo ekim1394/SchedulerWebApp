@@ -1,7 +1,7 @@
 # Introduction
 This web app is meant to create a website using python 3 and the Flask web framework.
 Partly meant as a learning experience as well as giving something cool/useful to my mother.
-- Genie
+-- Genie
 
 ## Things to setup on your laptop (Must have permissions to run scripts)
 1. pip install virtualenv
@@ -17,8 +17,7 @@ Partly meant as a learning experience as well as giving something cool/useful to
 ## Deployment Steps for heroku
 1. git commit -am "Add descriptive commit message"
 2. git push
-3. git push heroku master
-3.(b) check for any errors in build
+3. git push heroku master (check for errors in build)
 4. heroku ps:scale web=1
 5. heroku open
 
