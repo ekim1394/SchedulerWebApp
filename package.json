@@ -1,0 +1,24 @@
+{
+  "name": "SchedulerWebApp",
+  "version": "1.0.0",
+  "description": "This web app is meant to create a website using python 3 and the Flask web framework.\r Partly meant as a learning experience as well as giving something cool/useful to my mother.\r -- Genie",
+  "main": "index.js",
+  "dependencies": {
+    "nib": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekim1394/SchedulerWebApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekim1394/SchedulerWebApp/issues"
+  },
+  "homepage": "https://github.com/ekim1394/SchedulerWebApp#readme"
+}

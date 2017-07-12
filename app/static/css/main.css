@@ -1,0 +1,7 @@
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+#main-body body {
+  background-color: #00f !important;
+}
