@@ -1,4 +1,4 @@
-# Introduction
+    # Introduction
 This web app is meant to create a website using python 3 and the Flask web framework.
 Partly meant as a learning experience as well as giving something cool/useful to my mother.
 -- Genie
