@@ -4,7 +4,8 @@
   "description": "This web app is meant to create a website using python 3 and the Flask web framework.\r Partly meant as a learning experience as well as giving something cool/useful to my mother.\r -- Genie",
   "main": "index.js",
   "dependencies": {
-    "nib": "^1.1.2"
+    "nib": "^1.1.2",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {},
   "scripts": {
