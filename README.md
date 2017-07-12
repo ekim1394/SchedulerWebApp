@@ -25,9 +25,10 @@ Partly meant as a learning experience as well as giving something cool/useful to
 4. heroku ps:scale web=1
 5. heroku open
 ````
-## Stylus commands
+## Stylus commands and other notes
 ````
 stylus app/stylus/main.styl -o app/static/css/main.css
+ctrl+f5 does a hard refresh useful for getting updated css
 ````
 ## Things to do/add
 ````
