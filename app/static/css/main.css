@@ -1,16 +1,19 @@
 .container {
   margin: 0 auto;
   width: 960px;
+  height: 100%;
 }
 body {
-  background-color: #00f;
+  background-color: #dc143c;
+  height: 100%;
 }
 div {
   background-color: #faebd7;
 }
 aside {
-  float: left;
+  display: block;
+  float: right;
 }
 article {
-  float: left;
+  float: right;
 }
