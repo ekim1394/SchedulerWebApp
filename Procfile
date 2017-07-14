@@ -1,2 +1,2 @@
 web: gunicorn app:app
-init: python .\scripts\run.py
+init: python run.py
