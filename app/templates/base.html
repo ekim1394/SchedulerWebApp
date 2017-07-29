@@ -9,17 +9,17 @@
     {% if title %}
     <title>{{ title }}</title>
     {% else %}
-    <title>Scheduler</title>
+    <title>Chichester Cleaners</title>
     {% endif %}
 </head>
 <body>
 <div class="container">
     <div id="header">
-        <h4>SchedulerApp</h4>
+        <h1>Chichester Cleaners</h1>
         <a href="/index">Home</a>
         <b>|</b> <a href="/about">About</a>
-        <b>|</b> <a href="/scheduler">Scheduler</a>
-        <b>|</b> <a href="/contact">Contact me!</a>
+        <!--<b>|</b> <a href="/scheduler">Scheduler</a>-->
+        <b>|</b> <a href="/contact">Contact Us!</a>
     </div>
     <div id="logs">
         <hr>
@@ -35,14 +35,21 @@
     </div>
     <div id="content">
         {% block content %}{% endblock %}
-        <aside>
-            <article>
-                <header>Title Goes Here</header>
-                <section>Links go here</section>
-                <footer>Contact Info Goes Here</footer>
-            </article>
-        </aside>
     </div>
 </div>
 </body>
+<footer>
+    <div id="contact">
+        <h3>CONTACT INFO</h3>
+        <p>Chichester Cleaners
+            <br>P: 610-485-4408
+            <br>3601 Chichester Ave.
+            <br>Boothwyn PA 19061
+        </p>
+    </div>
+    <div>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.5336818911023!2d-75.44442248469194!3d39.83987167943637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6e5d10a3b0b55%3A0xcdf3a7f595eecbe9!2sChichester+Cleaners!5e0!3m2!1sen!2sus!4v1501351611518"
+        frameborder="0"></iframe>
+    </div>
+</footer>
 </html>

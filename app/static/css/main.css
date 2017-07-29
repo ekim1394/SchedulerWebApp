@@ -4,11 +4,15 @@
   height: 100%;
 }
 body {
-  background-color: #dc143c;
+  background-color: #000;
   height: 100%;
 }
 div {
-  background-color: #faebd7;
+  background-color: #fff;
+}
+#logs {
+  background-color: #00f;
+  color: #008000;
 }
 aside {
   display: block;
@@ -16,4 +20,42 @@ aside {
 }
 article {
   float: right;
+}
+#storeFront {
+  width: 900;
+  height: 480;
+}
+#contact {
+  float: left;
+  background-color: #000;
+  color: #fff;
+  padding: 15;
+  margin: 29.2;
+  font-size: 16;
+}
+#map {
+  align: right;
+  float: right;
+  background-color: #000;
+  width: 300;
+  height: 200;
+  padding: 15;
+  margin: 29.2;
+}
+footer {
+  background-color: #000;
+}
+a {
+  font-size: 24;
+}
+b {
+  font-size: 24;
+}
+#shirtLaundry {
+  float: right;
+  width: 400;
+}
+#tailorShop {
+  float: left;
+  width: 400;
 }
